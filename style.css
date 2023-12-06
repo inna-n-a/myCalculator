@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+body {
+    font-size: 2.5vh;
+    font-family: 'Poiret One', sans-serif;
+    /* top: 15%;
+    left: 40%; */
+    margin: 0 auto;
+    background-color: #ee7878;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.05em;
+font-weight: lighter;
+}
+
+
+/* h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.05em;
+    //font-family: 'Poiret One', sans-serif;
+
+} */
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    /* padding-top: 1.5vh; */
+    /* border: 1px solid #ffffff; */
+    /* border-radius: 15px; */
+    background-color: #191919;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.box {
+    text-align: right;
+    font-size: 2.5vh;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    /* border: 2px solid rgb(219, 175, 52); */
+    color: white;
+    /* border-radius: 15px; */
+    /* background-color: rgb(110, 110, 110); */
+}
+
+hr {
+    /* margin: 20px 0; */
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #909090;
+}
+
+.table {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-color: #191919;
+}
+
+/* .linesButtons{
+    display: flex;
+} */
+
+
+button {
+    width: 7vh;
+    height: 7vh;
+    margin: 0;
+    font-weight: normal;
+    font-size: 2.5vh;
+    color: white;
+    background-color: #191919;
+    /* border-radius: 50%; */
+    border: 0;
+    font-family: 'Poiret One', sans-serif;
+
+}
+
+button:hover {
+    background-color: #ee7878;
+}
+
+/* #remove{
+    background-image: url(./imgs/back_remove.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+} */
+
+.operator {
+    color: #ee7878;
+    font-size: 5vh;
+}
+
+.line-3,
+.line-2 {
+    color: #ee7878;
+    /* font-size: 5vh; */
+}
+
+
+.operator:hover,
+.line-2:hover,
+.line-3:hover {
+    background-color: #ee7878;
+    color: #ffffff;
+}
+
+.memory {
+    color: #909090;
+}
